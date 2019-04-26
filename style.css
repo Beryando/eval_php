@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face
+{
+    font-family: 'mighty_brush';
+    src: url('mighty_brush_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: rgb(31, 14, 14);
+    font-family: 'mighty_brush';
+    color: #e1fa03;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chartreuse;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#container {
+    width: 95%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+
+}
+
+header h1 {
+    
+    font-size: 3.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+header h2 {
+    
+    font-size: 1.7em;
+    margin-top: 0px;
+    font-weight: normal;
+    margin-left: 2%;
+}
+
+nav {
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    color: #e1fa03;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #62009b;
+    border-bottom: 3px solid #62009b;
+}
+
+#mid_text {
+    width: 70%;
+    margin-top: 17%;
+    margin-left: 10%;
+    border: 5px solid orangered;
+    border-radius: 20px 20px 20px 20px;
+}
+
+footer p {
+    margin-top: 40%;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+
+}
+
+/* tableaux */
+
+table {
+    margin-top: 25%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: separate;
+    border-spacing: 40px 30px;
+}
+tbody{
+    border: 5px solid orangered;
+    border-radius: 20px 20px 20px 20px;
+}
+
+td {
+    font-size: 2em;
+}
+
+/* formulaire*/
+
+form {
+    
+    margin: 0 auto;
+    width: 400px;
+    margin-top: 10%;
+    padding: 1em;
+    border: 5px solid orangered;
+    border-radius: 2em;
+  }
+  
+div + div {
+    margin-top: 1em;
+  }
+  
+label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+input, textarea {
+    
+    font: 1em sans-serif;
+  
+    
+    width: 300px;
+  
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  
+   
+    border: 1px solid #999;
+  }
+  
+input:focus, textarea:focus {
+   
+    border-color: #000;
+  }
+  
+textarea {
+    
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  
+.button {
+    
+    padding-left: 90px; 
+  }
+  
+button {
+    
+    margin-left: .5em;
+  }
